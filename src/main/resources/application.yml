@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: bajaj-health-challenge
+
+# Application specific configuration
+bajaj:
+  webhook:
+    base-url: https://bfhldevapigw.healthrx.co.in/hiring
+    generate-path: /generateWebhook/JAVA
+    test-path: /testWebhook/JAVA
+  user:
+    name: John Doe
+    reg-no: REG12347
+    email: john@example.com
+
+logging:
+  level:
+    com.bajaj.finserv: DEBUG
+    org.springframework.web.reactive: DEBUG
