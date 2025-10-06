@@ -12,11 +12,12 @@ bajaj:
     generate-path: /generateWebhook/JAVA
     test-path: /testWebhook/JAVA
   user:
-    name: John Doe
-    reg-no: REG12347
-    email: john@example.com
+    name: Swayam Satyameshram
+    reg-no: 112215181
+    email: 112215181@cse.iiitp.ac.in
 
 logging:
   level:
     com.bajaj.finserv: DEBUG
+
     org.springframework.web.reactive: DEBUG
